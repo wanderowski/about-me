@@ -20,16 +20,16 @@ const icons = [
     title: "Redux",
   },
   {
+    url: "/icon_dva.png",
+    title: "DvaJS",
+  },
+  {
     url: "/icon_vue.png",
     title: "Vue",
   },
   {
     url: "/icon_next.png",
     title: "NextJS",
-  },
-  {
-    url: "/icon_dva.png",
-    title: "DvaJS",
   },
   {
     url: "/icon_webpack.png",
@@ -50,6 +50,22 @@ const icons = [
   {
     url: "/icon_less.png",
     title: "Less",
+  },
+  {
+    url: "/icon_tailwind.svg",
+    title: "Tailwind CSS",
+  },
+  {
+    url: "/icon_amcharts.jpg",
+    title: "AM Charts 4",
+  },
+  {
+    url: "/icon_formik.png",
+    title: "Formik",
+  },
+  {
+    url: "/icon_cube.jpg",
+    title: "Cube JS",
   },
 ];
 

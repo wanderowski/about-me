@@ -23,37 +23,90 @@ const items: Item[] = [
     content: (
       <>
         <p className="paragraph">
-          I&apos;ve been working for more than a year on a govtech project in
-          the field of taxes. Currently, I am a middle developer at that company
-          and my main responsibilities are:
+          Started as a junior developer, six months later I was promoted to the
+          middle level. I was engaged in the development of a separate module in
+          the govtech project. Over the course of a year, I{" "}
+          <i>
+            <b>optimized</b>
+          </i>{" "}
+          the old code, removing unnecessary components and rewriting obsolete
+          components and functions. Refactored{" "}
+          <i>
+            <b>over ten pages</b>
+          </i>{" "}
+          from class components to functional ones using custom and built-in
+          hooks. Optimized work with forms by rewriting all forms using{" "}
+          <i>
+            <u>Formik</u>
+          </i>
+          , thereby reducing the number of lines of code in the components by{" "}
+          <i>
+            <b>1.5-2.5 times</b>
+          </i>
+          . Finally, participated in code reviews, helped recently joined
+          developers with code optimization and formatting.
         </p>
-        <ul>
-          <li className="paragraph">
-            - to develop new features according to the technical requirements
-            provided by the Tax department of Kazakhstan
-          </li>
-          <li className="paragraph">
-            - to fix bugs and rapidly react to the problems that appeared in the
-            project
-          </li>
-          <li className="paragraph">
-            - to help my teammates and share my thoughts and solutions to
-            existing or newly appeared problems.
-          </li>
-          <li className="paragraph">
-            - code review and mentoring of newcomers
-          </li>
-        </ul>
+        <p className="paragraph">
+          In parallel, I participated in another project, where I was also the
+          only frontend developer. This project was developed to monitor the
+          current situation in the region by aggregating data from various
+          sources. For three months of work, I managed to work with{" "}
+          <i>
+            <u>CubeJS</u>
+          </i>
+          ,{" "}
+          <i>
+            <u>Redux Toolkit</u>
+          </i>
+          ,{" "}
+          <i>
+            <u>Am Charts v4</u>
+          </i>
+          . Also, this project was written in{" "}
+          <i>
+            <u>Typescript</u>
+          </i>
+          , so I managed to hone my skills in this technology.
+        </p>
       </>
     ),
   },
   {
     key: "NU",
     label: "Nazarbayev University",
-    title: "NU",
+    title: "Nazarbayev University",
     logoUrl: "/logo_nu.png",
     dates: ["2021-01-15", "2021-11-08"],
-    content: <div></div>,
+    content: (
+      <>
+        <p className="paragraph">
+          I started my work as a graduate research assistant with a professor
+          who specialized in research in the field of telecommunications and
+          networks. After six months of scientific analysis and preparation, I
+          started developing my own DTN (delay / disruption tolerant networks)
+          simulator using vanilla{" "}
+          <i>
+            <b>JavaScript</b>
+          </i>
+          .
+        </p>
+        <p className="paragraph">
+          In this project, I managed to work closely with elements such as
+          canvas, animation and interaction between components. The code was
+          based on classes for each of the participants in communications within
+          the network. This work formed the basis of my master&apos;s thesis.
+          Also, in the course of work, I managed to work with{" "}
+          <i>
+            <b>Tailwind CSS</b>
+          </i>{" "}
+          and{" "}
+          <i>
+            <b>Bootstrap</b>
+          </i>
+          .
+        </p>
+      </>
+    ),
   },
 ];
 
