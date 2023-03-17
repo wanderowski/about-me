@@ -1,6 +1,6 @@
 import Footer from "@/components/Footer/Footer";
 import { Header } from "@/components/Header";
-import Head from "next/head";
+import React from "react";
 
 interface IMainLayoutProps {
   children: React.ReactNode;
