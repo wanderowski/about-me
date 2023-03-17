@@ -8,9 +8,6 @@ const sections = [
   { url: "/", text: "About me" },
   { url: "/skills", text: "Skills" },
   { url: "/experience", text: "Experience" },
-  { url: "/text", text: "Projects" },
-  { url: "/awards-certifications", text: "Awards & Certifications" },
-  { url: "/contacts", text: "Contacts" },
 ];
 
 function Header() {
