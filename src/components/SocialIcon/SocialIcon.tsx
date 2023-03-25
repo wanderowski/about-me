@@ -1,5 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
+import GmailIcon from "public/icon_gmail.png";
+import TelegramIcon from "public/icon_telegram.png";
+import LinkedIcon from "public/icon_linedib.png";
 
 interface ISocialIconProps {
   type: string;
@@ -9,20 +12,20 @@ interface ISocialIconProps {
 function SocialIcon(props: ISocialIconProps) {
   const { type, href } = props;
 
-  const getTitle = () => {
+  const getSource = () => {
     if (type === "gm") {
-      return "/icon_gmail.png";
+      return GmailIcon;
     }
     if (type === "tg") {
-      return "/icon_telegram.png";
+      return TelegramIcon;
     }
 
-    return "/icon_linkedib.png";
+    return LinkedIcon;
   };
   return (
     <Link href={href} target="_blank">
       <Image
-        src={getTitle()}
+        src={getSource()}
         alt="logo"
         width={20}
         height={20}

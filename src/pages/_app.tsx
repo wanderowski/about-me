@@ -6,13 +6,14 @@ import Head from "next/head";
 import { useRouter } from "next/router";
 import { useState, useEffect } from "react";
 import Image from "next/image";
+import LoadingIcon from "public/loading.gif";
 
 function Loading() {
   return (
     <div className="loader__wrapper">
       <Image
-        src="/loading.gif"
-        alt="Loading"
+        src={LoadingIcon}
+        alt="Загрузка"
         height={0}
         width={0}
         style={{ width: 300, height: "auto" }}
