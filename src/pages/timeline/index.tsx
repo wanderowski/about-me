@@ -99,9 +99,6 @@ function Timeline() {
             icon={<WorkOutlineOutlinedIcon />}
             iconStyle={{ border: "1px solid black" }}
           >
-            <h3 className="vertical-timeline-element-title">
-              Graduate Research Assistant at NU
-            </h3>
             <div className={styles.time__imageContainer}>
               <Image
                 src={NULogo}
@@ -110,7 +107,9 @@ function Timeline() {
                 style={{ objectFit: "contain" }}
               />
             </div>
-
+            <h3 className="vertical-timeline-element-title">
+              Graduate Research Assistant at NU
+            </h3>
             <p className="paragraph">
               I started my work as a graduate research assistant with a
               professor who specialized in research in the field of
