@@ -1,70 +1,86 @@
 import Container from "@/components/Container/Container";
 import styles from "@/styles/Skills.module.scss";
 import Image from "next/image";
+import TypescriptIcon from "public/icon_typescript.png";
+import ReactIcon from "public/icon_react.png";
+import ReactRouterIcon from "public/icon_react-router.png";
+import ReduxIcon from "public/icon_redux.png";
+import DvaIcon from "public/icon_dva.png";
+import VueIcon from "public/icon_vue.png";
+import NextIcon from "public/icon_next.png";
+import WebpackIcon from "public/icon_webpack.png";
+import ViteIcon from "public/icon_vite.png";
+import HtmlCssJsIcon from "public/icon_html_css_js.png";
+import SassIcon from "public/icon_sass.png";
+import LessIcon from "public/icon_less.png";
+import TailwindIcon from "public/icon_tailwind.svg";
+import AmChartsIcon from "public/icon_amcharts.jpg";
+import FormikIcon from "public/icon_formik.png";
+import CubeIcon from "public/icon_cube.jpg";
 
 const icons = [
   {
-    url: "/icon_typescript.png",
+    url: TypescriptIcon,
     title: "Typescript",
   },
   {
-    url: "/icon_react.png",
+    url: ReactIcon,
     title: "React",
   },
   {
-    url: "/icon_react-router.png",
+    url: ReactRouterIcon,
     title: "React Router",
   },
   {
-    url: "/icon_redux.png",
+    url: ReduxIcon,
     title: "Redux",
   },
   {
-    url: "/icon_dva.png",
+    url: DvaIcon,
     title: "DvaJS",
   },
   {
-    url: "/icon_vue.png",
+    url: VueIcon,
     title: "Vue",
   },
   {
-    url: "/icon_next.png",
+    url: NextIcon,
     title: "NextJS",
   },
   {
-    url: "/icon_webpack.png",
+    url: WebpackIcon,
     title: "Webpack",
   },
   {
-    url: "/icon_vite.png",
+    url: ViteIcon,
     title: "Vite",
   },
   {
-    url: "/icon_html_css_js.png",
+    url: HtmlCssJsIcon,
     title: "HTML, CSS, JS",
   },
   {
-    url: "/icon_sass.png",
+    url: SassIcon,
     title: "SASS, SCSS",
   },
   {
-    url: "/icon_less.png",
+    url: LessIcon,
     title: "Less",
   },
   {
-    url: "/icon_tailwind.svg",
+    url: TailwindIcon,
     title: "Tailwind CSS",
   },
   {
-    url: "/icon_amcharts.jpg",
+    url: AmChartsIcon,
     title: "AM Charts 4",
   },
   {
-    url: "/icon_formik.png",
+    url: FormikIcon,
     title: "Formik",
   },
   {
-    url: "/icon_cube.jpg",
+    url: CubeIcon,
     title: "Cube JS",
   },
 ];

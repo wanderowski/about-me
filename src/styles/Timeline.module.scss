@@ -1,0 +1,13 @@
+.time {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+
+  &__imageContainer {
+    width: 100%;
+    height: 200px;
+    position: relative;
+  }
+}

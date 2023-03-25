@@ -7,7 +7,7 @@ import Link from "next/link";
 const sections = [
   { url: "/", text: "About me" },
   { url: "/skills", text: "Skills" },
-  { url: "/experience", text: "Experience" },
+  { url: "/timeline", text: "Experience" },
 ];
 
 function Header() {
