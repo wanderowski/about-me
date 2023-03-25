@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import GmailIcon from "public/icon_gmail.png";
 import TelegramIcon from "public/icon_telegram.png";
-import LinkedIcon from "public/icon_linedib.png";
+import LinkedIcon from "public/icon_linkedib.png";
 
 interface ISocialIconProps {
   type: string;
