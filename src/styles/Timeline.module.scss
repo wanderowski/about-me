@@ -10,4 +10,10 @@
     height: 200px;
     position: relative;
   }
+
+  &__vertline {
+    &:before {
+      width: 2px !important;
+    }
+  }
 }

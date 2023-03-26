@@ -6,15 +6,21 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import SamgauLogo from "public/logo_samgau.png";
-import NULogo from "public/logo_nu.png";
+import NULogo from "public/logo_nu.jpg";
 import Image from "next/image";
 
 import WorkOutlineOutlinedIcon from "@mui/icons-material/WorkOutlineOutlined";
+import { Divider } from "antd";
 function Timeline() {
   return (
     <div className={styles.time}>
       <Container>
-        <VerticalTimeline animate layout="2-columns">
+        <VerticalTimeline
+          animate
+          layout="2-columns"
+          lineColor="black"
+          className={styles.time__vertline}
+        >
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{
@@ -25,8 +31,17 @@ function Timeline() {
             }}
             date="11/2021 - present"
             icon={<WorkOutlineOutlinedIcon />}
-            iconStyle={{ border: "1px solid black" }}
+            iconStyle={{
+              border: "1px solid black",
+              background: "white",
+              boxShadow: "0 0 0 2px rgba(0,0,0,0.75)",
+            }}
+            contentArrowStyle={{ display: "none" }}
           >
+            <h3 className="vertical-timeline-element-title">
+              Frontend Developer at Samgau
+            </h3>
+            <Divider style={{ border: "1px solid rgba(0,0,0,0.2)" }} />
             <div className={styles.time__imageContainer}>
               <Image
                 src={SamgauLogo}
@@ -35,10 +50,6 @@ function Timeline() {
                 style={{ objectFit: "contain" }}
               />
             </div>
-            <h3 className="vertical-timeline-element-title">
-              Frontend Developer at Samgau
-            </h3>
-
             <p className="paragraph">
               Started as a junior developer, six months later I was promoted to
               the middle level. I was engaged in the development of a separate
@@ -97,8 +108,18 @@ function Timeline() {
             }}
             date="01/2021 - 11/2021"
             icon={<WorkOutlineOutlinedIcon />}
-            iconStyle={{ border: "1px solid black" }}
+            iconStyle={{
+              border: "1px solid black",
+              background: "white",
+              boxShadow: "0 0 0 2px rgba(0,0,0,0.75)",
+            }}
+            contentArrowStyle={{ display: "none" }}
           >
+            <h3 className="vertical-timeline-element-title">
+              Graduate Research Assistant at NU
+            </h3>
+            <Divider style={{ border: "1px solid rgba(0,0,0,0.2)" }} />
+
             <div className={styles.time__imageContainer}>
               <Image
                 src={NULogo}
@@ -107,9 +128,6 @@ function Timeline() {
                 style={{ objectFit: "contain" }}
               />
             </div>
-            <h3 className="vertical-timeline-element-title">
-              Graduate Research Assistant at NU
-            </h3>
             <p className="paragraph">
               I started my work as a graduate research assistant with a
               professor who specialized in research in the field of
